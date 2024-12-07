@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Définir l'encodage des caractères -->
+    <meta charset="UTF-8" />
+    <!-- Titre de la page -->
+    <title>Formulaire - Annuaire des Étudiants en Cybersécurité</title>
+    <!-- Lien vers le fichier CSS personnalisé -->
+    <link type="text/css" rel="stylesheet" href="/CSS/profil.css" />
+    <!-- Lien vers les icônes FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="layout">
+      <!-- Section de navigation principale -->
+      <nav class="navigation">
+        <!-- Logo du site -->
+        <img src="/imgs/logo_annuaire.png" alt="logo_annuaire" />
+        <!-- Liens de navigation avec icônes -->
+        <a href="index.html"><i class="fa-solid fa-house"></i>Accueil</a>
+        <a href="etudiants.html"><i class="fa-solid fa-user"></i>Étudiants</a>
+        <a
+          href="https://emplois.ca.indeed.com/jobs?q=cybersecurity+analyst&l=Edmundston%2C+NB&from=searchOnHP&vjk=65672e9bf39f9e61"
+          ><i class="fa-solid fa-briefcase"></i>Offres de Stage/Emploi</a
+        >
+        <a href="about.html"><i class="fa-solid fa-circle-info"></i>À propos</a>
+        <a href="contacts.html"
+          ><i class="fa-regular fa-address-book"></i>Contact</a
+        >
+      </nav>
+      <br />
+      <section class="profile-section">
+        <h2>Informations Personnelles</h2>
+        <div class="profile-card">
+          <img
+            src="/imgs/photo_profil.png"
+            alt="Photo de l'expert réseaux"
+            class="profile-photo"
+          />
+          <div class="profile-details">
+            <h3>Alexy Dupont</h3>
+            <p>
+              <strong>Formation :</strong> Licence en Sécurité des Réseaux et
+              Télécommunications
+            </p>
+            <p><strong>Université :</strong> Université de Lyon</p>
+            <p><strong>Email :</strong> alexy.dupont@gmail.com</p>
+            <p><strong>Téléphone :</strong> +33 7 89 45 67 12</p>
+            <p>
+              <strong>LinkedIn :</strong>
+              <a href="https://www.linkedin.com/in/alexydupont" target="_blank"
+                >Alexy Dupont LinkedIn</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <h2>Compétences en Sécurité Réseaux</h2>
+        <ul class="skills-list">
+          <li>Conception et gestion d'infrastructures réseau sécurisées</li>
+          <li>
+            Déploiement et administration de pare-feu (OPNsense, Cisco ASA)
+          </li>
+          <li>Analyse et surveillance des réseaux (Wireshark, Nagios)</li>
+          <li>Implémentation de VPN sécurisés</li>
+          <li>Protection contre les attaques DDoS</li>
+          <li>Gestion des systèmes IDS/IPS (Snort, Suricata)</li>
+        </ul>
+
+        <h2>Projets Réalisés</h2>
+        <div class="project">
+          <h3>Déploiement d'un Réseau Sécurisé pour une PME</h3>
+          <p>
+            <strong>Description :</strong> Conception et mise en place d'une
+            infrastructure réseau sécurisée, incluant des pare-feu, VPN, et
+            segmentation des réseaux locaux (LAN).
+          </p>
+          <p>
+            <strong>Technologies utilisées :</strong> Cisco ASA, VLAN, OpenVPN
+          </p>
+          <p><strong>Durée :</strong> 6 mois (Mars 2024 - Août 2024)</p>
+        </div>
+
+        <div class="project">
+          <h3>Système de Détection et Prévention d'Intrusions</h3>
+          <p>
+            <strong>Description :</strong> Installation et configuration d'un
+            IDS/IPS pour un réseau d'entreprise afin de détecter et prévenir les
+            cyberattaques.
+          </p>
+          <p>
+            <strong>Technologies utilisées :</strong> Snort, Suricata, ELK Stack
+          </p>
+          <p><strong>Durée :</strong> 3 mois (Décembre 2023 - Février 2024)</p>
+        </div>
+
+        <h2>Expériences Professionnelles</h2>
+        <div class="experience">
+          <h3>Ingénieur Sécurité Réseaux - NetSecure Solutions</h3>
+          <p>
+            <strong>Description :</strong> Supervision et maintenance des
+            infrastructures réseau, résolution des incidents de sécurité, et
+            gestion des politiques de pare-feu.
+          </p>
+          <p><strong>Durée :</strong> Septembre 2023 - Mars 2024</p>
+        </div>
+
+        <div class="experience">
+          <h3>Stagiaire en Sécurité des Réseaux - GlobalTech</h3>
+          <p>
+            <strong>Description :</strong> Assistance à la configuration de VPN,
+            surveillance des réseaux via Nagios, et mise à jour des règles des
+            pare-feu.
+          </p>
+          <p><strong>Durée :</strong> Février 2023 - Juin 2023</p>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Annuaire des Étudiants en Cybersécurité</p>
+    </footer>
+  </body>
+</html>

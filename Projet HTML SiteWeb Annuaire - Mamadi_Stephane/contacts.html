@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contacts - Annuaire des Étudiants en Cybersécurité</title>
+    <link type="text/css" rel="stylesheet" href="CSS/contacts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="layout">
+      <!--Navigation-->
+      <nav class="navigation">
+        <img src="/imgs/logo_annuaire.png" alt="logo_annuaire" />
+        <a href="index.html"><i class="fa-solid fa-house"></i>Accueil</a>
+        <a href="etudiants.html"><i class="fa-solid fa-user"></i>Étudiants</a>
+        <a
+          href="https://emplois.ca.indeed.com/jobs?q=cybersecurity+analyst&l=Edmundston%2C+NB&from=searchOnHP&vjk=65672e9bf39f9e61"
+          ><i class="fa-solid fa-briefcase"></i>Offres de Stage/Emploi</a
+        >
+        <a href="about.html"><i class="fa-solid fa-circle-info"></i>À propos</a>
+        <a href="contacts.html"
+          ><i class="fa-regular fa-address-book"></i>Contact</a
+        >
+      </nav>
+      <section class="contact-form">
+        <h1>Formulaire de contact</h1>
+        <p>
+          Si vous avez des questions ou des demandes concernant l'annuaire des
+          étudiants en cybersécurité, veuillez remplir le formulaire ci-dessous.
+          Nous vous répondrons dans les plus brefs délais.
+        </p>
+
+        <form action="submit_form.php" method="POST">
+          <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <br />
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <br />
+
+          <div class="form-group">
+            <label for="message">Votre message</label> <br /><br />
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+          <br />
+
+          <a href="etudiants.html" class="submit-button">Envoyer</a>
+        </form>
+      </section>
+    </div>
+    <br />
+    <br /><br />
+
+    <section class="contact-info">
+      <h2>Informations de contact</h2>
+      <p>
+        Si vous préférez nous contacter directement, vous pouvez utiliser les
+        informations suivantes :
+      </p>
+      <ul>
+        <li><strong>Email :</strong> contact@cybersecurity.ca</li>
+        <li><strong>Téléphone :</strong> +1 506 145 3874</li>
+        <li><strong>Adresse :</strong> 123 Rue Campus, 506 N.B, Canada</li>
+      </ul>
+    </section>
+    <footer>
+      <p>&copy; 2024 Annuaire des Étudiants en Cybersécurité</p>
+    </footer>
+  </body>
+</html>

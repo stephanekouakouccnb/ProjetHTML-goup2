@@ -1,0 +1,122 @@
+/*========= CSS CONTACTS ETUDIANTS ==========*/
+
+/* --- Styles de base --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 5px;
+}
+
+h1, h2 {
+    color: #00bcd4; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.layout {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* --- Navigation --- */
+nav.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003366;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav.navigation img {
+    width: 50px;
+    height: auto;
+}
+
+nav.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+nav.navigation a:hover {
+    color: #00bcd4;
+}
+
+nav.navigation i {
+    margin-right: 8px;
+}
+
+/*---- TABLEAUX -----*/
+
+td a {
+    color: #00bcd4; 
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+td a:hover {
+    color: red; 
+    text-decoration: underline; 
+}
+
+table th, table td {
+    border: 1px solid #1e1e1e; 
+    color: #1e1e1e;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f6aa89 ;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #f5f5f5 ;
+    color: #1e1e1e;
+    font-weight: bold;
+}
+
+
+/* --- Pied de page --- */
+footer {
+    background-color: #004080;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    color: #ffffff;
+    width: 50%;
+
+    padding: 10px 20px;
+    margin: auto; 
+}
+
+/* --- Styles Responsives --- */
+@media (max-width: 768px) {
+    nav.navigation {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav.navigation a {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    table th, table td {
+        font-size: 14px;
+    }
+}
+

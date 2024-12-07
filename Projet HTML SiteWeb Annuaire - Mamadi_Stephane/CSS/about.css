@@ -1,0 +1,73 @@
+/*====== CSS ABOUT =====*/
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+    background-color: #003366;
+    justify-content: space-around;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.navigation img {
+    height: 80px;
+}
+
+.navigation i {
+    margin-right: 8px; 
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #0059b3;
+}
+
+
+.navg {
+    background-color: #d9eaf7;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2, h1 {
+    color: #004080;
+    
+}
+
+h1 {
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    margin-top: 150px;
+    font-weight: bold;
+}
+

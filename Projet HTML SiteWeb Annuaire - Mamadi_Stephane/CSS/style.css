@@ -1,0 +1,119 @@
+/*===== CSS PAGE D'ACCUEIL ======*/
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    
+}
+
+h2 {
+    color: #004080;
+}
+
+
+/*---- Navigation -----*/
+.navigation {
+    display: flex;
+    background-color: #003366;
+    justify-content: space-around;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.navigation img {
+    height: 50px;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+.navigation i {
+    margin-right: 8px; 
+}
+
+.navigation a:hover {
+    background-color: #0059b3;
+}
+
+.flexbox-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+
+.navg {
+    background-color: #d9eaf7;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #004080;
+    border-radius: 5px;
+    width: 1300px;  
+
+}
+
+/*---- Button ---*/
+button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+  }
+  
+button a {
+    color: white; 
+    text-decoration: none;
+  }
+
+button:hover {
+    background-color: #00b339;
+}
+
+/*---- Footer ---*/
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+
+  
+

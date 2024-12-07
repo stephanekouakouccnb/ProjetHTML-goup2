@@ -1,0 +1,138 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-left: 5px;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navigation {
+    display: flex;
+    background-color: #003366;
+    justify-content: space-around;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.navigation img {
+    height: 80px;
+}
+
+.navigation i {
+    margin-right: 8px; 
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #0059b3;
+}
+
+
+.navg {
+    background-color: #d9eaf7;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+h2, h1 {
+    color: #004080;
+    
+}
+
+
+button a {
+    color: #00bcd4; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+
+button a:hover {
+    color: red; 
+    text-decoration: underline;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.contact-info {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+
+
+button {
+    background-color: #004080;
+    color: #0059b3;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0059b3;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    margin-top: 150px;
+    font-weight: bold;
+}
